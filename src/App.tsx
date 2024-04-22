@@ -56,15 +56,22 @@ const App = () => {
         ...prevData,
         [name]: value,
       }));
+   
     },
     [setInputs]
   );
-  
   const form:any = useRef();
 
   const sendEmail = (e:any) => {
     e.preventDefault();
-    
+    const values = Object.values(inputs)
+    console.log(values);
+    if (values.some(value => value.trim()==="")) {
+      toast.warning("Please fill the all fields!")
+      return
+    }
+
+
     emailjs
       .sendForm('service_icyq02o', 'template_7nqfm1k', form?.current, {
         publicKey: 'A0DNmS-7FXPMhmEPx',
