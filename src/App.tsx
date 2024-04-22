@@ -65,7 +65,7 @@ const App = () => {
   const sendEmail = (e:any) => {
     e.preventDefault();
     const values = Object.values(inputs)
-    console.log(values);
+   // console.log(values);
     if (values.some(value => value.trim()==="")) {
       toast.warning("Please fill the all fields!")
       return
