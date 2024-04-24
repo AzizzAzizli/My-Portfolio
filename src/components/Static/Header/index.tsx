@@ -97,7 +97,7 @@ const Wrapper = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 41px 0px 41px 0px;
+    padding: 22px 0px 22px 0px;
     position: fixed;
     width: 100vw;
     z-index: 5;

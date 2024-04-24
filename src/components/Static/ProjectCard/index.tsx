@@ -39,7 +39,7 @@ const ProjectCard: FC<{ data: projectTypes }>  = ({ data }) => {
 
   return (
     <Box data-aos="fade-up"
-    data-aos-anchor-placement="bottom-bottom">
+    data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
         <ProjectImg
             src={data.image}
         />

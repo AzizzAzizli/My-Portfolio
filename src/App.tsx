@@ -36,6 +36,14 @@ const App = () => {
       })
   }, [])
 
+  window.onload = function() {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth' 
+    });
+  };
+  
   //! Dynamic Styles 
 
   const globalStyle = {
@@ -148,7 +156,7 @@ const App = () => {
 
             <Contact id='contact' >
                     <HeadTitle data-aos="fade-up" data-aos-anchor-placement="top-bottom"  className='head_title' style={headTitleColor}>
-                      Projects
+                     Contact
                     </HeadTitle>
 
                        <ContactForm  ref={form} onSubmit={sendEmail}>
@@ -201,7 +209,7 @@ const Main = styled.main`
           grid-template-columns: repeat(2,1fr)
         }
 
-        padding: 143.5px 70px 0px 70px !important;
+        padding: 143.5px 70px 0px 70px;
     }
 
     @media screen and (max-width: 1200px){
@@ -234,6 +242,9 @@ const Main = styled.main`
     }
 
     @media screen and (max-width: 769px) {
+
+      padding: 143.5px 40px 0px 40px;
+
         .head_title{
           font-size: 29px;
           text-align: center;
@@ -268,8 +279,7 @@ const Main = styled.main`
         }
     }
 
-    @media screen and (max-width: 650px){
-      
+    @media screen and (max-width: 642px){
     }
 `
 
@@ -357,9 +367,10 @@ const ProjectBoxBody = styled.div`
 const Contact = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 40px;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  padding-top: 100px;
 `
 
 const ContactForm = styled.form`
