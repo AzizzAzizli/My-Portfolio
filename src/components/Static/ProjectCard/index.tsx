@@ -33,7 +33,8 @@ const ProjectCard: FC<{ data: projectTypes }>  = ({ data }) => {
 
   useEffect(() => {
     AOS.init({
-        once: false,
+      once: true,
+      offset:-500
     })
 }, [])
 
