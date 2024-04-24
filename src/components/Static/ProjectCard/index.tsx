@@ -109,6 +109,7 @@ const ProjectImg = styled.img`
     height: 250px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    object-fit: cover;
 `
 
 const Bottom = styled.div`
