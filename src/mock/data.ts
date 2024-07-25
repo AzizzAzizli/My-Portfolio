@@ -131,6 +131,22 @@ export const technologiesData: technologiesData[] = [
         documentation: "https://www.postman.com/",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
     },
+    {
+        technology: "Node.js",
+        documentation: "https://nodejs.org/en",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+    },
+    {
+        technology: "MongoDB",
+        documentation: "https://www.mongodb.com/",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg",
+    },
+    {
+        technology: "Socket.Io",
+        documentation: "https://socket.io/",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg",
+    },
+    
  
 ];
 
@@ -192,5 +208,12 @@ export const projectsData: projectsData[] = [
         technologies: " Html5 , Css3 , Javascript , Firebase",
         githubLink: "https://github.com/izzatmammadov/Library",
         vercelLink: "https://izzatmammadov.github.io/Library/"
+    },
+    {
+        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fis5-ssl.mzstatic.com%2Fimage%2Fthumb%2FPurple122%2Fv4%2F8c%2Fea%2F77%2F8cea777a-f3ab-7500-3ed4-38f87371138c%2FAppIcon-0-1x_U007emarketing-0-7-0-85-220.png%2F512x512bb.jpg&f=1&nofb=1&ipt=79ef8c5afee63753e87812594604f4fe98372dc039629c4c88acca08916dcdf9&ipo=images",
+        name: "ChatApp ",
+        technologies: "React.js, Node.js, MongoDB, Socket.Io",
+        githubLink: "https://github.com/AzizzAzizli/ChatApp",
+        vercelLink: "https://github.com/AzizzAzizli/ChatApp"
     },
 ]
