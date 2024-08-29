@@ -216,4 +216,11 @@ export const projectsData: projectsData[] = [
         githubLink: "https://github.com/AzizzAzizli/ChatApp",
         vercelLink: "https://github.com/AzizzAzizli/ChatApp"
     },
+    {
+        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.1xePnG_UVMK7nrPTsmcZFwHaGO%26pid%3DApi&f=1&ipt=b03f01cc57c321d57c0d24ff112c8a9fd52e66d564a324097aa433f9b54c99aa&ipo=images",
+        name: "Create your post",
+        technologies: "React.js, Node.js, MongoDB, Bcryptjs, Jsonwebtoken",
+        githubLink: "https://github.com/AzizzAzizli/CreateYourPost",
+        vercelLink: "https://create-your-post.vercel.app/"
+    },
 ]
