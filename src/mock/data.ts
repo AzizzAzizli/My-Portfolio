@@ -147,7 +147,11 @@ export const technologiesData: technologiesData[] = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg",
     },
     
- 
+    {
+        technology: "Puppeteer",
+        documentation: "https://pptr.dev/",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/puppeteer/puppeteer-original.svg",
+    },
 ];
 
 
